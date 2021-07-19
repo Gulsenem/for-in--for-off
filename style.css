@@ -1,0 +1,22 @@
+*{box-sizing: border-box;}
+
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+.spalte
+{
+    margin: 20px;
+}
+
+.spalte div
+{
+    margin-bottom: 10px;
+}
+
+.spalte :first-child
+{
+    font-weight: bold;
+}
