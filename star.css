@@ -15,30 +15,31 @@ body
 
 .container
 {
-    border-radius: 8px;
+    border-radius: 12px;
     background-color: white;
-    padding: 50px;
-    color:#ccc;
+    padding: 30px 50px;
+    color:#949494;
     margin-bottom: 20px;
+    display: flex;
    
 }
 .container i
 {
-    font-size: 2em;
+    font-size: 1.4em;
+    margin: 0 1px;
 }
 .container i:hover
 {
-    color:yellow;
+    color:rgb(255, 208, 0);
 }
 button
 {
-    background-color: rgb(255, 81, 0);
+    background-color: rgb(199, 66, 5);
     color:white;
     font-weight: bold;
     border:none;
     outline:none;
     border-radius: 8px;
     cursor: pointer;
-    padding: 8px 20px;
-    font-size: 1.1em;
+    padding: 10px 20px;
 }
